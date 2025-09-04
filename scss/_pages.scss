@@ -1,0 +1,15 @@
+// _pages.scss
+.section {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: $space-6 $space-4;
+}
+.form-control, .btn {
+  border-radius: .75rem;
+}
+.btn-primary {
+  background-color: $color-principal;
+  border-color: $color-principal;
+  &:hover { background-color: darken($color-principal, 5%); }
+}
+.img-fluid { border-radius: .75rem; }

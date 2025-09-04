@@ -1,0 +1,14 @@
+// _mixins.scss
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition($prop, $dur: .3s) {
+  transition: $prop $dur ease-in-out;
+}
+
+@mixin fluid-type($min, $max) {
+  font-size: clamp($min, 2vw, $max);
+}

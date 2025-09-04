@@ -1,0 +1,13 @@
+// _responsive.scss
+// Mobile first adjustments
+@media (max-width: 576px) {
+  .heroSection { min-height: 50vh; padding: $space-5; }
+}
+
+@media (max-width: 768px) {
+  .heroSection { min-height: 60vh; }
+}
+
+@media (max-width: 1024px) {
+  .heroSection { min-height: 65vh; }
+}

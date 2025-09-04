@@ -1,0 +1,21 @@
+// _header.scss
+.navbar {
+  background-color: $color-principal;
+  padding: $space-3 $space-4;
+  box-shadow: $shadow-soft;
+
+  .navbar-brand, .nav-link {
+    color: $color-fondo;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      color: $color-secundario;
+      @include transition(color);
+    }
+  }
+
+  .navbar-toggler {
+    border: 0;
+    &:focus { box-shadow: none; }
+  }
+}
