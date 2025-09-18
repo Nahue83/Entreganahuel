@@ -1,0 +1,37 @@
+// _footer.scss
+footer {
+  background: linear-gradient(0deg, rgba(0,0,0,.05), rgba(0,0,0,.05)), $color-secundario;
+  padding: $space-6 $space-4;
+  .footerRedes a {
+    font-size: 1.5rem;
+    margin-right: $space-4;
+    color: $color-texto;
+    &:hover { color: $color-principal; }
+  }
+  .footerMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-3;
+    li a {
+      color: $color-texto;
+      text-decoration: none;
+      &:hover { text-decoration: underline; color: $color-principal; }
+    }
+  }
+}
+.redessociales-icono {
+  color: $color-principal; // Color base
+  font-size: 28px;
+  margin: 0 10px;
+  transition: color 60s ease;
+
+  &:hover {
+    color: blue; // Color de Instagram
+  }
+
+  &:active {
+    color: blue; // Color más oscuro al hacer clic
+  }
+}
+
+

@@ -1,0 +1,425 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@font-face {
+    font-family: cursive;
+    src: url();
+}
+
+h1 {
+    color:  rgba(177, 80, 177, 0.705);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.delicateces{
+    color:  rgba(177, 80, 177, 0.705);
+
+}
+ul{
+    list-style: none;
+
+    }
+
+li>a{
+    color:  rgba(177, 80, 177, 0.705);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+body{ 
+    font-family: "IBM Plex Serif", serif;
+
+}
+
+/* INICIO FOTO DE FONDO */
+
+#fondoprincipal .heroSection {
+  background-image: url(../assets/img/cheesecakeentortamaschica.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items:end;
+  justify-content: flex-start;
+}
+
+#fondoprincipal .heroSection .herotxt{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  background-color:  rgba(177, 80, 177, 0.705);
+  width: 15%;
+  padding: 25px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.subrayado {
+  text-decoration: #ffedba 4px underline;
+}     
+
+
+.txtMayuscula {
+  text-transform: uppercase;
+
+}
+
+.fa-brands{
+    font-size: 50px;
+}
+
+/* LOGO */
+.logo{
+    width: 64px;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+header,footer{
+    background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+ justify-content: space-between ;
+  padding: 10px; /* aca se puede mostrar diferencia si coloco margin */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+}
+
+nav{
+    width: 100%;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    */
+}
+
+.delicateces span {
+    font-weight: 600;
+    color: rgba(230, 195, 84, 0.705)
+    
+}
+
+main{
+    text-align: center;
+
+}
+
+/*Sobre Mi*/
+
+section.sobreMi {
+  margin: 5px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section.sobreMi .intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 40px;
+  flex-wrap: wrap; /* para que sea responsivo */
+}
+
+section.sobreMi .introText {
+  flex: 1;
+  min-width: 300px;
+}
+
+section.sobreMi .introText h2 {
+  text-align: left;
+  font-size: 24px;
+}
+
+section.sobreMi .introText p {
+  text-align: justify;
+}
+
+section.sobreMi img.autoretrato {
+  flex: 1;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/*---Redes---*/
+.fa-brands {
+    color: rgb(230, 63, 118);
+    justify-content: flex-end; 
+    
+}
+
+/* ------------------------------FOOTER--------------------------- */
+footer .footerMenu {
+  margin: 0 auto;
+  width: 50%;
+}
+
+footer .footerRedes {
+  margin: 5px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.copy {
+  font-size: 15px;
+  text-align: center;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.whatsapp {
+  font-size: 50px;
+  color: green;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+/* CONTACTO */
+
+.contacto .formularioContacto {
+    display: flex;
+    width: 60vw;
+    height: 65vh;
+    margin: 31px auto;
+}
+
+.formulario{
+  width: 80%;
+  padding: 25px;
+  background-color:  rgba(177, 80, 177, 0.705);
+}
+
+.formulario form{
+  height: 100%;
+}
+
+.formulario fieldset{
+  padding: 30px;
+  height: 90%;
+}
+
+.imageContacto{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Postres Y materas */
+
+.postresymateras h1{
+  font-size: 3.5rem;  
+}
+
+.postresymateras .postresDisponibles {
+  margin: 25px 0;
+  padding: 7px;
+}
+
+.postresymateras .postresDisponibles h2 {
+  font-size: 2.75rem;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.gridLine{
+  display: inline-flex;
+}
+
+.postresymateras .postresDisponibles .card{
+  width: 350px;
+  border: 1px solid  rgba(177, 80, 177, 0.705);
+  margin: 15px;
+  background-color: #ffedba;
+}
+
+.postresymateras .postresDisponibles div img{
+  width: 100%;
+}
+
+.postresymateras .postresDisponibles div h3{
+  padding: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color:  rgba(177, 80, 177, 0.705);
+}
+
+.postresymateras .postresDisponibles div p{
+  margin: 15px 5px;
+}
+
+.galeria {
+    display: flex;        /* Muestra las imágenes en fila */
+    flex-wrap: wrap;      /* Hace que bajen a otra línea si no caben */
+    gap: 10px;            /* Espacio entre las imágenes */
+    justify-content: center;
+}
+
+.galeria img {
+    width: 200px;         /* Ancho fijo */
+    height: 200px;        /* Alto fijo */
+    object-fit: cover;    /* Recorta la imagen para que no se distorsione */
+    border-radius: 10px;  /* Opcional: bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Opcional: sombra */
+}
+
+
+/* Salado */
+
+.postresymateras h1{
+  font-size: 3.5rem;  
+}
+
+.postresymateras .postresDisponibles {
+  margin: 25px 0;
+  padding: 7px;
+}
+
+.postresymateras .postresDisponibles h2 {
+  font-size: 2.75rem;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 75vw;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: #ffedba;
+  justify-items: center;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid  rgba(177, 80, 177, 0.705);
+  padding: 15px; /* Ejemplo de padding dentro de la tarjeta */
+  text-align: center;
+}
+
+.card img {
+  width: 100%; 
+  height: auto;
+}
+
+.postresymateras .postresDisponibles .card{
+  width: 350px;
+  border: 1px solid  rgba(0, 0, 0, 0.705);
+  margin: 15px;
+}
+
+.postresymateras .postresDisponibles div img{
+  width: 100%;
+}
+
+.postresymateras .postresDisponibles div h3{
+  padding: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color:   rgba(177, 80, 177, 0.705);
+}
+
+.postresymateras .postresDisponibles div p{
+  margin: 15px 5px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  #fondoprincipal .heroSection {
+    height: 40vh;
+    background-position: top;
+  }
+
+  #fondoprincipal .heroSection .herotxt {
+    font-size: 18px;
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: 1fr; /* Solo 1 columna en móviles */
+    width: 90vw;
+  }
+
+  .postresymateras .postresDisponibles .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto .formularioContacto {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+
+  .formulario {
+    width: 100%;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+// _responsive.scss (mobile-first)
+@media (min-width: 576px) {
+  .heroSection { min-height: 50vh; padding: $space-5; }
+}
+@media (min-width: 768px) {
+  .heroSection { min-height: 60vh; }
+}
+@media (min-width: 1024px) {
+  .heroSection { min-height: 65vh; }
+}

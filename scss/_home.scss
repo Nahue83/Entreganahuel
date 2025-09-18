@@ -1,0 +1,38 @@
+// _home.scss
+.heroSection {
+  min-height: 70vh;
+  @include flex-center;
+  text-align: center;
+  padding: $space-6;
+  .herotxt {
+    @include fluid-type(1rem, 2rem);
+    color: $color-fondo;
+    text-shadow: 0 2px 12px rgba(0,0,0,.35);
+    animation: fadeIn 1.2s ease both;
+  }
+}
+
+.card-producto {
+  border-radius: $radius-xl;
+  overflow: hidden;
+  box-shadow: $shadow-soft;
+  background: $color-fondo;
+  @include transition(transform, .25s);
+
+  &:hover { transform: translateY(-4px); }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-body {
+    padding: $space-4;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
