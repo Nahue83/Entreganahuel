@@ -1,0 +1,9 @@
+# Ignorar dependencias de npm
+node_modules/
+
+# Ignorar mapas de CSS generados
+*.map
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
