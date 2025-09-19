@@ -19,3 +19,9 @@
     &:focus { box-shadow: none; }
   }
 }
+
+
+/* Degradé igual al footer para todos los headers */
+.header-degrade, header.header-degrade, .navbar.header-degrade {
+  background: linear-gradient(0deg, rgba(0,0,0,.05), rgba(0,0,0,.05)), $color-secundario;
+}
